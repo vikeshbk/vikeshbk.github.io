@@ -1,0 +1,287 @@
+body,
+div,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+html,
+li,
+table,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+.container {
+  width: 90%;
+  margin: 0 auto; }
+
+.container-fluid {
+  width: 100%; }
+
+#fp-nav ul li a span {
+  background: #fff; }
+
+#section1, #section2, #section3, #section4 {
+  color: #fff;
+  font-weight: 300;
+  font-family: open sans; }
+  #section1 .container, #section2 .container, #section3 .container, #section4 .container {
+    width: 70%;
+    position: relative; }
+    #section1 .container .header, #section2 .container .header, #section3 .container .header, #section4 .container .header {
+      font-size: 43px;
+      text-align: center; }
+    #section1 .container .content, #section2 .container .content, #section3 .container .content, #section4 .container .content {
+      line-height: 35px;
+      font-size: 20px;
+      margin: 0 auto;
+      margin-top: 30px; }
+  @media (max-width: 767px) {
+    #section1 .container, #section2 .container, #section3 .container, #section4 .container {
+      width: 90%;
+      transform: unset; }
+      #section1 .container .header, #section2 .container .header, #section3 .container .header, #section4 .container .header {
+        font-size: 25px; }
+      #section1 .container .content, #section2 .container .content, #section3 .container .content, #section4 .container .content {
+        width: 100%;
+        font-size: 16px; } }
+
+@media (max-width: 767px) {
+  #section2 .header, #section3 .header, #section4 .header {
+    font-size: 40px !important; } }
+
+#section1 {
+  background: #2E3192;
+  /* For browsers that do not support gradients */ }
+  #section1 .container {
+    margin-top: 13%; }
+  @media (max-width: 767px) {
+    #section1 .container .content {
+      width: 80%;
+      line-height: 28px;
+      text-align: center; } }
+
+#section2 {
+  background: #333333; }
+  #section2 .container {
+    margin-top: 13%; }
+    #section2 .container .content {
+      font-size: 16px;
+      line-height: 20px; }
+      #section2 .container .content .box {
+        padding: 15px;
+        color: #000;
+        border-radius: 7px;
+        margin: 0 5px;
+        margin-bottom: 10px; }
+        #section2 .container .content .box .port-des {
+          padding-bottom: 15px; }
+  @media (max-width: 767px) {
+    #section2 .container .content .box {
+      padding: 14px 56px; } }
+
+#section3 {
+  background: #A80063; }
+  #section3 .container {
+    margin-top: 13%; }
+  @media (max-width: 767px) {
+    #section3 .container .content {
+      width: 80%;
+      line-height: 28px;
+      text-align: center; } }
+
+#section4 {
+  background: #3A5054; }
+  #section4 .container {
+    margin-top: 5%; }
+    #section4 .container:after {
+      content: "";
+      display: table;
+      clear: both; }
+    #section4 .container .wrapper {
+      width: 50%;
+      display: inline-block;
+      float: left;
+      box-sizing: border-box;
+      padding: 0 15px; }
+      #section4 .container .wrapper #map {
+        height: 500px;
+        width: 100%;
+        background-color: grey; }
+    #section4 .container .contact .contact_form {
+      display: none; }
+      #section4 .container .contact .contact_form .form-wrapper {
+        padding: 30px;
+        font-size: 16px; }
+        #section4 .container .contact .contact_form .form-wrapper .group {
+          line-height: 27px; }
+          #section4 .container .contact .contact_form .form-wrapper .group * {
+            width: 100%; }
+          #section4 .container .contact .contact_form .form-wrapper .group input {
+            height: 40px; }
+          #section4 .container .contact .contact_form .form-wrapper .group textarea {
+            height: 150px; }
+        #section4 .container .contact .contact_form .form-wrapper .submit-btn {
+          width: 100%;
+          text-align: center;
+          margin-top: 20px;
+          padding: 10px 0;
+          font-size: 17px;
+          font-family: open sans;
+          color: #000; }
+      #section4 .container .contact .contact_form.active {
+        display: block; }
+    #section4 .container .contact .contact-details {
+      display: none; }
+      #section4 .container .contact .contact-details .address-wrap {
+        margin-top: 15px;
+        padding: 0 30px;
+        font-size: 16px;
+        line-height: 25px; }
+        #section4 .container .contact .contact-details .address-wrap .address {
+          margin-top: 20px; }
+        #section4 .container .contact .contact-details .address-wrap .phone {
+          margin-top: 20px; }
+          #section4 .container .contact .contact-details .address-wrap .phone a {
+            color: #fff; }
+        #section4 .container .contact .contact-details .address-wrap .email {
+          margin-top: 20px; }
+          #section4 .container .contact .contact-details .address-wrap .email a {
+            color: #fff; }
+      #section4 .container .contact .contact-details.active {
+        display: block; }
+
+.switch-btn {
+  border: 1px solid #fff;
+  cursor: pointer;
+  text-align: center; }
+
+#fullpage {
+  z-index: 99; }
+
+header {
+  background: transparant;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999; }
+  header:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.logo {
+  float: left; }
+
+nav {
+  float: right; }
+  nav:after {
+    content: "";
+    display: table;
+    clear: both; }
+  nav .menu {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 25px;
+    cursor: pointer; }
+    nav .menu:after {
+      content: "";
+      display: table;
+      clear: both; }
+    nav .menu ul {
+      display: none;
+      position: absolute;
+      top: 52px;
+      color: #fff;
+      right: -55px;
+      line-height: 40px;
+      font-family: open sans; }
+      nav .menu ul li {
+        list-style: none;
+        text-align: left; }
+        nav .menu ul li a {
+          color: #fff;
+          text-decoration: none; }
+    nav .menu.active ul {
+      display: block; }
+    nav .menu.active span {
+      background-color: transparent;
+      -webkit-transition-delay: 0.2s;
+      transition-delay: 0.2s; }
+      nav .menu.active span:before {
+        margin-top: 0;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        -webkit-transition-delay: 0s, 0.2s;
+        transition-delay: 0s, 0.2s; }
+      nav .menu.active span:after {
+        margin-top: 0;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-transition-delay: 0s, 0.2s;
+        transition-delay: 0s, 0.2s; }
+    nav .menu span {
+      margin: 0 auto;
+      position: relative;
+      top: 12px;
+      height: 4px;
+      border-radius: 5px;
+      width: 30px;
+      margin-top: 0;
+      background-color: #fff;
+      display: block;
+      -webkit-transition-duration: 0s;
+      transition-duration: 0s;
+      -webkit-transition-delay: 0.2s;
+      transition-delay: 0.2s; }
+      nav .menu span.menu-scroll {
+        background-color: #3b5999; }
+      nav .menu span:before {
+        margin-top: -8px;
+        -webkit-transition-property: margin, -webkit-transform;
+        transition-property: margin, transform;
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-delay: 0.2s, 0s;
+        transition-delay: 0.2s, 0s; }
+      nav .menu span:after {
+        margin-top: 8px;
+        -webkit-transition-property: margin, -webkit-transform;
+        transition-property: margin, transform;
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-delay: 0.2s, 0s;
+        transition-delay: 0.2s, 0s; }
+      nav .menu span:after, nav .menu span:before {
+        position: absolute;
+        content: '';
+        height: 4px;
+        width: 30px;
+        background-color: #fff;
+        display: block;
+        border-radius: 5px; }
+
+.portfolio {
+  display: inline-block;
+  text-align: center;
+  width: 19%; }
+  .portfolio .img-wrap img {
+    width: 100%; }
+  @media (max-width: 767px) {
+    .portfolio {
+      width: 100%; }
+      .portfolio .img-wrap {
+        width: 54%;
+        margin: 0 auto; }
+        .portfolio .img-wrap img {
+          width: 100%; } }
+
+.fp-tableCell {
+  vertical-align: unset; }
